@@ -14,6 +14,23 @@
 //       ' ### '
 //       '#####'
 
+/*
+ const columns = [0, 1, 2, 3, 4];
+                        ^
+                        #
+ const row = 0;
+
+  const columns = [0, 1, 2, 3, 4];
+                      ^  ^  ^
+                      #  #  #
+ const row = 1;
+
+   const columns = [0, 1, 2, 3, 4];
+                      ^  ^  ^
+                    #  #  #  #  #
+ const row = 2;
+*/
+
 function pyramid(n) {}
 
 module.exports = pyramid;
